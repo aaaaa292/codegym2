@@ -1,0 +1,35 @@
+/* 全站 */
+html, body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#wrapper{
+	width: 100%;
+	min-height: calc(100% - 120px);
+	padding-bottom: 56px;
+}
+
+/* 導覽列 */
+li .link-secondary {
+	margin-top: 3px;
+	color: #008080;
+	font-weight: bold;
+}
+
+li .link-dark {
+	margin-left: 5px;
+	font-weight: bold;
+	border-radius: 5px;
+	background-color: #CCDDFF;
+}
+
+li .link-dark:hover {
+	color: white;
+	background-color: black;
+}
+
+.NavLink {
+	text-decoration: none;
+}
+

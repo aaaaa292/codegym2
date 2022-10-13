@@ -1,0 +1,68 @@
+a {
+	text-decoration: none;
+}
+
+.hide {
+	display: none !important; 
+}
+
+.formDiv div {
+	z-index: 1;
+	margin-bottom: 3px;
+	border: 1px solid rgb(0, 102, 255);
+}
+
+/*#addCourseNameBTN {
+	font-weight: bold;
+	color: aliceblue;
+	background-color: #00AA55;
+	border: 3px solid #2F4F4F;
+	border-radius: 5px;
+}*/
+
+#addCourseNameBTN:hover {
+	cursor: pointer;
+}
+
+/*#selectCourseNameBTN {
+	font-weight: bold;
+	color: aliceblue;
+	background-color: gold;
+	border: 3px solid #2F4F4F;
+	border-radius: 5px;
+}*/
+
+#selectCourseNameBTN:hover {
+	cursor: pointer;
+}
+
+/*#changeBTN {
+	font-weight: bold;
+	color: aliceblue;
+	background-color: darkred;
+	border: 3px solid #2F4F4F;
+	border-radius: 5px;
+}*/
+
+#changeBTN:hover {
+	cursor: pointer;
+}
+
+#addVideosTop {
+	margin: 5px;
+	padding: 5px;
+	background-color: #CCDDFF;;
+}
+
+#addVideosTop:hover {
+	cursor: pointer;
+}
+
+#addVideosBottom {
+	margin: 5px;
+	padding: 5px;
+}
+
+.uploadVideo {
+	margin: 5px;;
+}

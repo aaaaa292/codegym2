@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+div.qaContainer{
+	width: 60%;
+}
+a.qaType {
+	text-decoration:none;
+	color: #5CADAD;
+}
+a.qaType:hover {
+	text-decoration:none;
+	color: #007979;
+}
+p > a{
+	color: #9D9D9D;
+	text-decoration:none;
+}
+p > a:hover{
+	color: #272727;
+	text-decoration:none;
+}
+p > span{
+	color: #272727;
+}
+div.imgContent{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+img.typeImg{
+width: 100%;
+}

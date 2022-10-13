@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body.qa{
+	background-color: #eee;
+}
+div.qaContainer{
+	width: 60%;
+}
+div.qaRow{
+	width:80%;
+	background-color: #fff;
+	padding:  20px 100px 70px 100px;
+	margin: 0 auto;
+}
+p > a{
+	color: #9D9D9D;
+	text-decoration:none;
+}
+p > a:hover{
+	color: #272727;
+	text-decoration:none;
+}
+p > span{
+	color: #272727;
+}
+
+
+/* ---------- 表情評分 ---------- */
+
+.emoticonRow{
+	border: 1px solid #9D9D9D;
+	border-radius: 10px;
+	padding: 40px
+}
+.emoticonContent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img.emoticonImg{
+	width: 30px;
+	height: 30px;
+}
+
+img.emoticonImg:hover{
+	transform: scale(1.4, 1.4);
+}
+button.emoticonBTN{
+	margin: 0 5px;
+	border: 0px;
+	background: none;
+}
